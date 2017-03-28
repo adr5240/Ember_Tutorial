@@ -1,0 +1,12 @@
+<form>
+    <label for='title'>Title:</label>
+    {{input type='text' value=post.title}}
+
+    <label for='author'>Author:</label>
+    {{input type='text' value=post.author}}
+
+    <label for='content'>Content:</label>
+    {{textarea type='text' value=post.content}}
+</form>
+
+<button {{action "goBackToIndex"}}>Click to go Back</button>
